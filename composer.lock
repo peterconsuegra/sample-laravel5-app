@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36cf2b0257f55d2e3030d6dc24ed130f",
+    "content-hash": "c630f0004f24e0a3b5ad8d72859aa40f",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -411,6 +411,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -457,6 +458,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -1105,67 +1107,17 @@
             "time": "2018-07-02T15:55:56+00:00"
         },
         {
-            "name": "peteconsuegra/testpackage",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/peterconsuegra/wordpress-plus-laravel.git",
-                "reference": "d75b9e901521052f09af469927ce457e82436728"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/peterconsuegra/wordpress-plus-laravel/zipball/d75b9e901521052f09af469927ce457e82436728",
-                "reference": "d75b9e901521052f09af469927ce457e82436728",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Peterconsuegra\\WordPressPlusLaravel\\WordPressPlusLaravelServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Peterconsuegra\\WordPressPlusLaravel\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "AGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Pedro Consuegra",
-                    "email": "pedroconsuegrat@gmail.com",
-                    "homepage": "http://pedroconsuegra.com"
-                }
-            ],
-            "description": "Get the best of both worlds by integrating WordPress with Laravel – a powerful MVC framework for PHP.",
-            "keywords": [
-                "artisan",
-                "commands",
-                "console",
-                "laravel"
-            ],
-            "time": "2019-04-12T00:56:51+00:00"
-        },
-        {
             "name": "peteconsuegra/wordpress-plus-laravel",
-            "version": "dev-master",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/peterconsuegra/wordpress-plus-laravel.git",
-                "reference": "d75b9e901521052f09af469927ce457e82436728"
+                "reference": "e44baffa431ac41d68f63398e288ced586d994c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/peterconsuegra/wordpress-plus-laravel/zipball/d75b9e901521052f09af469927ce457e82436728",
-                "reference": "d75b9e901521052f09af469927ce457e82436728",
+                "url": "https://api.github.com/repos/peterconsuegra/wordpress-plus-laravel/zipball/e44baffa431ac41d68f63398e288ced586d994c7",
+                "reference": "e44baffa431ac41d68f63398e288ced586d994c7",
                 "shasum": ""
             },
             "require": {
@@ -1202,7 +1154,7 @@
                 "console",
                 "laravel"
             ],
-            "time": "2019-04-12T00:56:51+00:00"
+            "time": "2020-10-21T00:23:34+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3809,6 +3761,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2018-10-30T05:52:18+00:00"
         },
         {
@@ -4555,14 +4508,12 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "peteconsuegra/testpackage": 20,
-        "peteconsuegra/wordpress-plus-laravel": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.1.3"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

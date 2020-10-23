@@ -4,8 +4,10 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Log;
-use App\User;
 
+
+/*user model
+*/
 use Illuminate\Support\Facades\Auth;
 
 class WPAuthMiddleware
@@ -35,7 +37,7 @@ class WPAuthMiddleware
 			
         } else {
             Auth::logout();
-            return redirect(env('WP_URL').'/login');
+            return redirect(env('WP_URL').'/wp-login.php');
         }
 		
         return $next($request);

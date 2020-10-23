@@ -13,8 +13,7 @@
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "novius/laravel-artisan-commands": "^1.0",
-        "peteconsuegra/testpackage": "dev-master",
-        "peteconsuegra/wordpress-plus-laravel": "dev-master"
+        "peteconsuegra/wordpress-plus-laravel": "^1.2"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
